@@ -1,0 +1,83 @@
+//flask back end or testing
+export const data = [
+  {
+    id: 1,
+    name: "", //based on what the user pick they have to input their name to the option
+    number_of_guest: "", //for avaible user add the number of guest
+    date: "2025-07-04",
+    time: "10:30 AM",
+    status: "Available",
+  },
+  {
+    id: 2,
+    name: "Mar Docherty",
+    number_of_guest: 25,
+    date: "2025-06-25",
+    time: "2:00 PM",
+    status: "Not Available",
+  },
+  {
+    id: 3,
+    name: "",
+    number_of_guest: "",
+    date: "2025-06-22",
+    time: "4:15 PM",
+    status: "Available",
+  },
+  {
+    id: 4,
+    name: "",
+    number_of_guest: "",
+    date: "2025-06-29",
+    time: "1:00 PM",
+    status: "Available",
+  },
+  {
+    id: 5,
+    name: "Armin Melley",
+    number_of_guest: 17,
+    date: "2025-07-01",
+    time: "11:45 AM",
+    status: "Not Available",
+  },
+  {
+    id: 6,
+    name: "Micah Masarrat",
+    number_of_guest: "3",
+    date: "2025-06-26",
+    time: "9:30 AM",
+    status: "Not Available",
+  },
+  {
+    id: 7,
+    name: "Arlana Pyne",
+    number_of_guest: 30,
+    date: "2025-07-03",
+    time: "3:00 PM",
+    status: "Not Available",
+  },
+  {
+    id: 8,
+    name: "",
+    number_of_guest: "",
+    date: "2025-06-28",
+    time: "12:15 PM",
+    status: "Available",
+  },
+  {
+    id: 9,
+    name: "",
+    number_of_guest: "",
+    date: "2025-06-23",
+    time: "10:00 AM",
+    status: "Available",
+  },
+  {
+    id: 10,
+    name: "Adelind Borth",
+    number_of_guest: 14,
+    date: "2025-07-02",
+    time: "2:30 PM",
+    status: "Not Available",
+  },
+];
