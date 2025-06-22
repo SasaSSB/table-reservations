@@ -53,5 +53,6 @@ Sherill Braynen
 ## Version History
 - 0.3
 - 0.2
+  -Frontend was completed and backend faces many bugs
 - 0.1
   - Initial Release 2025
