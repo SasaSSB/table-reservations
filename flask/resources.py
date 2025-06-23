@@ -12,7 +12,7 @@ reservationFields = {
 }
 
 reservation_panams = reqparse.RequestParser()
-reservation_panams.add_argument('name', type=str, required=True)
+reservation_panams.add_argument('name', type=str)
 reservation_panams.add_argument('number_of_guest', type=int )
 reservation_panams.add_argument('date', type=str , required = True)
 reservation_panams.add_argument('time', type=str, required=True)
@@ -35,7 +35,7 @@ class Reservations(Resource):
 
       db.session.add(reservation)
       db.session.commit()
-      return reservation
+      return reservation, 201
    
    
    #Update will happen on the existing reservations

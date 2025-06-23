@@ -10,9 +10,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-#initialize oue database and API
-db = SQLAlchemy(app)
-
 #activates the db and api
 db.init_app(app)
 

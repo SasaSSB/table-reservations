@@ -6,7 +6,7 @@ db = SQLAlchemy()
 #created model
 class ReservationModel(db.Model):
    id = db.Column(db.Integer, primary_key=True)
-   name = db.Column(db.String(80), nullable=False)
+   name = db.Column(db.String(80))
    number_of_guest = db.Column(db.Integer)
    date = db.Column(db.String,nullable=False)
    time = db.Column(db.String,nullable=False)
